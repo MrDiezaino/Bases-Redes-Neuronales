@@ -4,7 +4,7 @@
 
 Es una red de neuronas conectadas entre si, que están constantemente enviando información entre si.
 
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+![This is an image](https://raw.githubusercontent.com/MrDiezaino/PrimeraRed/main/img/Neurona.png)
 
 1. Dendrita: Recibe la información.
 2. Soma: Procesa la información.
@@ -16,13 +16,13 @@ El modelo que pasaremos al PC se llamará neurona artificial, o **perceptrón**.
 
 Vamos a darle una serie de ejemplos/guías a la neurona para que aprenda.
 
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+![This is an image](https://raw.githubusercontent.com/MrDiezaino/PrimeraRed/main/img/datos.png)
 
 # Neurona Artificial
 
 ### Basándonos en una neurona convencional
 
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+![This is an image](https://raw.githubusercontent.com/MrDiezaino/PrimeraRed/main/img/NeuronaCompleta.png)
 
 La neurona artificial va a tener algo conocido como "pesos"**(w)**.
 - Los pesos de encargarán de multiplicar a las entradas.
@@ -37,9 +37,9 @@ La entrada **(x)**,va a multiplicar al peso **(w)** y entrará al núcleo, donde
 
 Usamos el "Sigmoide" para ver la probabilidad de algo.
 
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+![This is an image](https://raw.githubusercontent.com/MrDiezaino/PrimeraRed/main/img/FASigmoide.png)
 
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+![This is an image](https://raw.githubusercontent.com/MrDiezaino/PrimeraRed/main/img/FuncionActivacion.png)
 
 A partir del sigmoide/FA hemos obtenido __la respuesta__
 
@@ -54,11 +54,11 @@ Usando el **Gradiente descendente**
 
 Esto lo que nos dice es que tan alejados estamos del "objetivo". Por lo que iría entrenando poco a poco reduciendo el error y acercándose a la meta.
 
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+![This is an image](https://raw.githubusercontent.com/MrDiezaino/PrimeraRed/main/img/Gradiente.png)
 
 Con la fórmula del error cuadrático.
 
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+![This is an image](https://raw.githubusercontent.com/MrDiezaino/PrimeraRed/main/img/errorCuadratico.png)
 
 La sumatoria de un medio de la salida (el valor deseado / meta) menos el valor de la función de activación al cuadrado.
 Cuanto menor sea el resultado, mejor.
@@ -77,4 +77,4 @@ AJ = Entrada * Error * Gradiente
 
 La cantidad de eṕocas serán las veces que se llevará a cabo el "estudio" por parte de nuestra red.
 
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+![This is an image](https://raw.githubusercontent.com/MrDiezaino/PrimeraRed/main/img/epocas.png)
